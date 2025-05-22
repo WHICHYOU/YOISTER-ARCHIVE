@@ -1,0 +1,1 @@
+// Content insight logic placeholder

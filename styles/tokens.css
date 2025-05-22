@@ -1,0 +1,46 @@
+:root {
+  /* Brand palette */
+
+/* Extended brand scale */
+--brand-primary-50: 250 100% 97%;
+--brand-primary-100: 250 100% 94%;
+--brand-primary-200: 250 96% 85%;
+--brand-primary-300: 251 95% 75%;
+--brand-primary-400: 252 90% 65%;
+--brand-primary-500: 250 80% 60%;
+--brand-primary-600: 248 69% 55%;
+--brand-primary-700: 246 58% 50%;
+--brand-primary-800: 245 50% 40%;
+--brand-primary-900: 243 47% 30%;
+
+/* Gradient helper */
+--brand-gradient: linear-gradient(135deg,hsl(250 80% 60%) 0%,hsl(286 65% 55%) 100%);
+
+  --brand-primary: 250 80% 60%;
+  --brand-primary-foreground: 0 0% 100%;
+
+  --surface-default: 0 0% 100%;
+  --surface-muted: 220 11% 96%;
+  --surface-inverted: 222 47% 11%;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Spacing scale (4‑pt grid) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface-default: 222 47% 11%;
+    --surface-muted: 223 20% 18%;
+    --surface-inverted: 210 40% 98%;
+  }
+}

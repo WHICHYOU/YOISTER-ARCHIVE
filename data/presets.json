@@ -1,0 +1,79 @@
+[
+  {
+    "id": "preset-101",
+    "title": "World Vision",
+    "description": "Who shapes the future in your eyes?",
+    "optionA": { "label": "Elon Musk", "image": "/presets/elon.jpg" },
+    "optionB": { "label": "Steve Jobs", "image": "/presets/jobs.jpg" }
+  },
+  {
+    "id": "preset-102",
+    "title": "Show of Strength",
+    "description": "Which badge screams power?",
+    "optionA": { "label": "Ferrari", "image": "/presets/ferrari.jpg" },
+    "optionB": { "label": "Lamborghini", "image": "/presets/lamborghini.jpg" }
+  },
+  {
+    "id": "preset-103",
+    "title": "Instant Nostalgia",
+    "description": "Which universe defined your youth?",
+    "optionA": { "label": "Harry Potter", "image": "/presets/harrypotter.jpg" },
+    "optionB": { "label": "Lord of the Rings", "image": "/presets/lotr.jpg" }
+  },
+  {
+    "id": "preset-104",
+    "title": "Global Icons",
+    "description": "Who defines greatness?",
+    "optionA": { "label": "Messi", "image": "/presets/messi.jpg" },
+    "optionB": { "label": "Ronaldo", "image": "/presets/ronaldo.jpg" }
+  },
+  {
+    "id": "preset-105",
+    "title": "Brand Battle",
+    "description": "Which symbol moves you?",
+    "optionA": { "label": "Nike", "image": "/presets/nike.jpg" },
+    "optionB": { "label": "Adidas", "image": "/presets/adidas.jpg" }
+  },
+  {
+    "id": "preset-106",
+    "title": "Streaming Titans",
+    "description": "What’s your screen addiction?",
+    "optionA": { "label": "Netflix", "image": "/presets/netflix.jpg" },
+    "optionB": { "label": "YouTube", "image": "/presets/youtube.jpg" }
+  },
+  {
+    "id": "preset-107",
+    "title": "Gaming Giants",
+    "description": "Your controller of choice?",
+    "optionA": { "label": "PlayStation", "image": "/presets/playstation.jpg" },
+    "optionB": { "label": "Xbox", "image": "/presets/xbox.jpg" }
+  },
+  {
+    "id": "preset-108",
+    "title": "Movie Vibes",
+    "description": "Which cinematic world pulls you in?",
+    "optionA": { "label": "Marvel", "image": "/presets/marvel.jpg" },
+    "optionB": { "label": "DC", "image": "/presets/dc.jpg" }
+  },
+  {
+    "id": "preset-109",
+    "title": "Event FOMO",
+    "description": "Where would you rather lose yourself?",
+    "optionA": { "label": "Coachella", "image": "/presets/coachella.jpg" },
+    "optionB": { "label": "Burning Man", "image": "/presets/burningman.jpg" }
+  },
+  {
+    "id": "preset-110",
+    "title": "Identity Badge",
+    "description": "Which frame defines your personality?",
+    "optionA": { "label": "MBTI", "image": "/presets/mbti.jpg" },
+    "optionB": { "label": "Zodiac", "image": "/presets/zodiac.jpg" }
+  },
+  {
+    "id": "preset-111",
+    "title": "Night Fuel",
+    "description": "Your poison of pleasure?",
+    "optionA": { "label": "Scotch", "image": "/presets/scotch.jpg" },
+    "optionB": { "label": "Bourbon", "image": "/presets/bourbon.jpg" }
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "user_id": "user-1",
+    "type": "referral_bonus",
+    "points": 10,
+    "source": "referral:user-9",
+    "timestamp": "2025-05-17T08:00:00Z"
+  },
+  {
+    "user_id": "user-1",
+    "type": "preset_engagement",
+    "preset_id": "preset-001",
+    "points": 3,
+    "source": "mbti_showdown",
+    "timestamp": "2025-05-17T09:15:00Z"
+  },
+  {
+    "user_id": "user-2",
+    "type": "tribe_alignment",
+    "tribe_id": "tribe-intj",
+    "points": 7,
+    "source": "ai_clustering",
+    "timestamp": "2025-05-16T14:42:00Z"
+  },
+  {
+    "user_id": "user-2",
+    "type": "toolkit_custom_filter",
+    "points": 2,
+    "source": "saved_filter:city_vs_nature",
+    "timestamp": "2025-05-16T15:10:00Z"
+  },
+  {
+    "user_id": "user-3",
+    "type": "daily_participation",
+    "points": 1,
+    "source": "autotrigger",
+    "timestamp": "2025-05-17T06:00:00Z"
+  }
+]

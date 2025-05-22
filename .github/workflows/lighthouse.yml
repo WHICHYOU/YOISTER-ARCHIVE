@@ -1,0 +1,21 @@
+name: Lighthouse CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  lhci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with: { version: 8 }
+      - name: Install deps
+        run: pnpm install
+      - name: Build
+        run: pnpm next build
+      - name: Run Lighthouse CI
+        run: |
+          npx @lhci/cli autorun --collect.staticDistDir=.next --upload.target=temporary-public-storage
